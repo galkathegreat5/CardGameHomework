@@ -1,0 +1,235 @@
+body {
+    background-image: url("Images/Background-Picture.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Main-Button-Container {
+    position: absolute;
+    top: 306px;
+    left: 284px;
+    display: block;
+    height: 84px;
+    width: 800px;
+    background-color: #ffece6;
+    border-radius: 15px;
+    box-shadow: -8px 8px 20px -5px;
+}
+
+.Main-Button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 3% 0;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 38px;
+    color: #361157;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.Top-section {
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    margin: -16px -8px;
+}
+
+.ScoreBox {
+    position: absolute;
+    display: block;
+    float: left;
+    width: 200px;
+    height: 58px;
+    background-color: #dad8e2;
+    border-radius: 0px 0px 15px 0px;
+    font-weight: bold;
+    color: #361157;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 4px 7px 20px -5px black;
+}
+
+.Score {
+    font-size: 18px;
+    margin-block-start: 10px;
+    margin-block-end: 0px;
+}
+
+.HighScore {
+    font-size: 14px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.Timer {
+    position: absolute;
+    top: 23px;
+    display: block;
+    left: 300px;
+}
+
+.Line-1 {
+    position: absolute;
+    height: 16px;
+    width: 760px;
+    background-color: #dad9e2;
+    border-radius: 8px;
+    box-shadow: 4px 7px 20px -5px black;
+}
+
+.Line-2 {
+    position: absolute;
+    height: 16px;
+    width: 621px;
+    background-color: #8e44ad;
+    border-radius: 8px;
+}
+
+.Refresh-Button {
+    position: absolute;
+    display: block;
+    left: 1266px;
+    width: 100px;
+    height: 58px;
+    background-color: #cefff9;
+    border-radius: 0px 0px 0px 15px;
+    box-shadow: -2px 6px 20px -5px black;
+}
+
+.Refresh-Button:hover {
+    background-color:  #ffffff;
+}
+.RefreshDefault {
+    position: absolute;
+    top: 15px;
+    bottom: 0;
+    left: 32px;
+    right: 0;
+    background-image: url("Images/Reset.png");
+    background-repeat: no-repeat;
+}
+
+.RefreshDefault:hover {
+    background-image: url("Images/Reset -hover.png");
+    background-repeat: no-repeat;
+}
+
+.Main-Board {
+    position: absolute;
+    top: 83px;
+    left: 119px;
+    height: 557px;
+    width: 1127px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 4px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 6px 8px -5px black;
+}
+
+.Card {
+    width: 126px;
+    height: 168px;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 28px;
+    margin-right: 28px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 8px 3px rgba(0,0,0,0.5);
+}
+
+.CardBackground {
+    background-image: url("Images/Card-Back.png");
+    opacity: 0.7;
+}
+
+.CardBackground:hover {
+    opacity: 1;
+}
+
+.Card-Mercury {
+    background-image: url("Images/Mercury.png");
+}
+
+.Card-Venus {
+    background-image: url("Images/Venus.png");
+}
+
+.Card-Earth {
+    background-image: url("Images/Earth.png");
+}
+
+.Card-Pluto {
+    background-image: url("Images/Pluto.png");
+}
+
+.Card-Neptune {
+    background-image: url("Images/Neptune.png");
+}
+
+.Card-Mars {
+    background-image: url("Images/Mars.png");
+}
+
+.Card-Jupiter {
+    background-image: url("Images/Jupiter.png");
+}
+
+.Card-Saturn {
+    background-image: url("Images/Saturn.png");
+}
+
+.Card-Uranus {
+    background-image: url("Images/Uranus.png");
+}
+
+#GameOver {
+    top: 450px;
+}
+
+.GameOverBackground {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #c0392b;
+    opacity: 0.6;
+}
+
+.MainTitle {
+    position: absolute;
+    top: 162px;
+    left: 425px;
+    font-size: 85px;
+    font-weight: bold;
+    color: #c0392b;
+    text-shadow: 0px 5px 3px rgba(0,0,0,0.75);
+    text-transform: uppercase;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.ScoreText {
+    position: absolute;
+    top: 300px;
+    left: 543px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0px 5px 3px rgba(0,0,0,0.75);
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
